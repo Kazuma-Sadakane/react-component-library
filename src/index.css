@@ -8,30 +8,29 @@
 
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
-@layer components {
-  .button-size-small {
-    @apply py-2 px-3 text-sm font-medium;
-  }
-
-  .button-size-medium {
-    @apply py-2.5 px-5 text-sm font-medium;
-  }
-
-  .button-size-large {
-    @apply py-3 px-5 text-base font-medium;
-  }
-
-  .button-variant-contained {
-    @apply bg-gray-50 hover:bg-gray-100 dark:bg-gray-600 dark:hover:bg-gray-700 text-black dark:text-white;
-  }
-
-  .button-variant-outlined {
-    @apply border border-gray-200 hover:border-gray-300 dark:border-gray-600 dark:hover:border-gray-700 text-black;
-  }
-
-  .button {
-    @apply focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700;
-  }
+.button-size-small {
+  @apply py-2 px-3 text-sm font-medium;
 }
+
+.button-size-medium {
+  @apply py-2.5 px-5 text-sm font-medium;
+}
+
+.button-size-large {
+  @apply py-3 px-5 text-base font-medium;
+}
+
+.button-variant-contained {
+  @apply bg-gray-50 hover:bg-gray-100 dark:bg-gray-600 dark:hover:bg-gray-700 text-black dark:text-white;
+}
+
+.button-variant-outlined {
+  @apply border border-gray-200 hover:border-gray-300 dark:border-gray-600 dark:hover:border-gray-700 text-black;
+}
+
+.button-variant-text {
+  @apply focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700;
+}
+
+@tailwind utilities;
