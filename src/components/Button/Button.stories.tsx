@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {ComponentStory, ComponentMeta} from '@storybook/react';
-import {Button} from '../components';
+import {Button} from '..';
 
 export default {
   title: 'Button',
@@ -13,4 +13,4 @@ const Template: ComponentStory<typeof Button> = args => (
 );
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = {variant: 'contained', disabled: true};
