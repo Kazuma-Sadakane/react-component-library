@@ -31,7 +31,7 @@
     @apply border border-gray-200 hover:border-gray-300 dark:border-gray-600 dark:hover:border-gray-700 text-black;
   }
 
-  .button {
+  .button-variant-text {
     @apply focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700;
   }
 }

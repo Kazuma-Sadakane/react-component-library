@@ -13,4 +13,4 @@ const Template: ComponentStory<typeof Button> = args => (
 );
 
 export const Default = Template.bind({});
-Default.args = {variant: 'contained', disabled: true};
+Default.args = {variant: 'contained', size: 'medium', disabled: true};

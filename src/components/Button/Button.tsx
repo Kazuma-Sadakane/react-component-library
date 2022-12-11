@@ -1,4 +1,5 @@
 import React, {HTMLAttributes, ReactNode} from 'react';
+import {ButtonDefaultStyle} from './Button.default.style';
 
 type Variant = 'text' | 'outlined' | 'contained';
 type Size = 'small' | 'medium' | 'large';
@@ -20,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       {...props}
-      className={`button button-variant-${variant} button-size-${size} ${className}`}
+      className={`button ${ButtonDefaultStyle.variant[variant]} ${ButtonDefaultStyle.size[size]} ${className}`}
     >
       {children}
     </button>
